@@ -1,4 +1,3 @@
-tic()
 function [x]=gausskij3b(A,b)
     for k=1:n-1
         for i=k+1:n
@@ -11,4 +10,4 @@ function [x]=gausskij3b(A,b)
     end
 [x]=usolve(A,b);
 endfunction
-toc()
+
