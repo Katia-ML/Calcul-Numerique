@@ -2,8 +2,8 @@ tic();
 n=100;
 m=100;
 p=25;
-A=rand(n,n);
-B=rand(n,n);
+A=rand(m,p);
+B=rand(p,n);
 function [C]= matmat2b(A,B)
     C=zeros(n,n);
 for i=1:1:m
@@ -13,3 +13,4 @@ for i=1:1:m
     end
 endfunction
 toc();
+
